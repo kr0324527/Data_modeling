@@ -4,7 +4,7 @@ const subtodosSchema = mongoose.Schema({
       type:String,
       required : true  
     },
-    compete:{
+    complete:{
         type:Boolean,
         default:false
     },
